@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @RestController
 @RequestMapping(value = "/ideas")
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"https://isd-ideas.herokuapp.com/"})
 public class IdeaRestController {
 
     @Autowired
