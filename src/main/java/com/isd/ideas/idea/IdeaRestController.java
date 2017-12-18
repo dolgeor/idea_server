@@ -27,6 +27,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 
+
 @RestController
 @RequestMapping(value = "/ideas")
 @CrossOrigin(origins = {"https://isd-ideas.herokuapp.com/"})
